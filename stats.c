@@ -9,13 +9,15 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief To perform the mathematical analysis on the given data-set
  *
- * <Add Extended Description Here>
+ * This file implements the main and others fuctions required 
+ * to carry mathematical analysis like mean, median, minimum and maximum
+ * on the given data-set and to print the results.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Abhimanyu Pandit
+ * @date 16-11-2017
  *
  */
 
@@ -35,9 +37,46 @@ void main() {
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
-  /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
+  unsigned char* pcDataPtr = test;
+
+  
+  
 
 }
 
-/* Add other Implementation File Code Here */
+void vSort_array(unsigned char* pcArrayPtr, unsigned int u32size)
+{
+
+}
+
+void vPrint_array(unsigned char* pcArrayPtr, unsigned int u32Size)
+{
+
+}
+
+void vPrint_statistics(unsigned char* pcArrayPtr, unsigned int u32Size)
+{
+
+}
+
+unsigned char mean(unsigned char* pcArrayPtr, unsigned int u32Size)
+{
+
+}
+
+unsigned char median(unsigned char* pcArrayPtr, unsigned int u32Size)
+{
+
+}
+
+unsigned char minimum(unsigned char* pcArrayPtr, unsigned int u32Size)
+{
+
+}
+
+unsigned char maximum(unsigned char* pcArrayPtr, unsigned int u32Size)
+{
+
+}
+
+//END OF THE FILE
