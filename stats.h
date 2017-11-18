@@ -49,7 +49,7 @@ void vPrint_array(unsigned char* pcArrayPtr, unsigned int u32Size);
  *
  * @return No return
  */
-void vPrint_statistics(unsigned char* pcArrayPtr, unsigned int u32Size);
+void vPrint_statistics(unsigned char* pcResultType, unsigned char ucResult);
 
 /**
  * @brief Calculates the mean of the given data-set
